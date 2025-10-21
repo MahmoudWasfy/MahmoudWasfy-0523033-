@@ -34,7 +34,11 @@ namespace MahmoudWasfy_0523033_.AppDbContextFolder
                 new Competition { Id = 1, Title = "idk", Location = "7elwan",}
 
            );
+            modelBuilder.Entity<Competition>().HasData
+           (
+                new Competition { Id = 2, Title = "idk", Location = "7elwan", }
 
+           );
 
             modelBuilder.Entity<Team>().HasData
           (
