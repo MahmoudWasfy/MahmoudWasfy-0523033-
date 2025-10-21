@@ -31,7 +31,7 @@ namespace MahmoudWasfy_0523033_.AppDbContextFolder
 
             modelBuilder.Entity<Competition>().HasData
            (
-                new Competition { Id = 1, Title = "idk", Location = "7elwan",}
+                new Competition { Id = 1, Title = "dasdasdasdas", Location = "7elwan",}
 
            );
             modelBuilder.Entity<Competition>().HasData
